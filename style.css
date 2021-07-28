@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body {
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: right 50vw bottom 20vh, left 45vw top 37vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    font-family: KumbhSans-Regular, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+}
+
+.age {
+    font-weight: lighter;
+    color: hsl(227, 10%, 46%);
+}
+
+.stats {
+    font-size: small;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 10% auto;
+    background-color: #fff;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-img {
+    border-radius: 100px;
+    border: 5px solid #fff;
+    margin-top: 80px;
+}
+
+.profile-header {
+    background-image: url("images/bg-pattern-card.svg");
+    background-size: cover;
+    height: 145px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.profile-body {
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+.profile-footer {
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(60, 2%, 9%);
+}
